@@ -27,7 +27,7 @@ app.use(cookieParser());
 app.use(
   cors({
     credentials: true,
-    origin: "http://deploy-mern-1whq.cervel.app",
+    origin: "https://chat-me-front.vercel.app/",
     methods: ["POST", "GET"]
   })
 );
