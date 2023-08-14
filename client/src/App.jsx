@@ -8,7 +8,7 @@ import Routes from './components/Routes';
 
 
 function App() {
-  axios.defaults.baseURL = 'https://chat-me-api.vercel.app/'
+  axios.defaults.baseURL = 'https://chat-me-api.vercel.app'
   //to set our cookies from api
   axios.defaults.withCredentials= true
   const {username } = useContext(UserContext)
