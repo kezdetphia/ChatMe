@@ -27,7 +27,8 @@ app.use(cookieParser());
 app.use(
   cors({
     credentials: true,
-    origin: CLIENT_URL,
+    origin: "http://deploy-mern-1whq.cervel.app",
+    methods: ["POST", "GET"]
   })
 );
 
